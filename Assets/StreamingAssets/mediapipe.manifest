@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 106467653
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: abf0cbd80e9d063ca4c6a76da67ed5be
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/hair_segmentation.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/pose_detection.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/object_detection_3d_chair.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/object_detection_ssd_mobilenetv2_oidv4_fp16.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/object_detection_3d_chair_1stage.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/pose_landmark_full.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/cup.obj.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/box.obj.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/chair.obj.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/face_detection_full_range_sparse.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/robot.obj.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/iris_landmark.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/ssdlite_object_detection_labelmap.txt
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/face_detection_short_range.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/object_detection_3d_camera.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/hand_recrop.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/ssdlite_object_detection.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/object_detection_3d_sneakers.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/handedness.txt
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/object_detection_3d_sneakers_1stage.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/sneaker.obj.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/face_landmark.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/pose_landmark_lite.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/hand_landmark.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/palm_detection.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/object_detection_oidv4_labelmap.txt
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/object_detection_3d_cup.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/pose_landmark_heavy.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/camera.obj.bytes
+- Packages/com.github.homuler.mediapipe/Runtime/Resources/face_detection_full_range.bytes
+Dependencies: []
