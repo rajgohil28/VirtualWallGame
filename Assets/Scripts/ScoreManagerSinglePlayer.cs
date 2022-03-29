@@ -32,9 +32,9 @@ public class ScoreManagerSinglePlayer : MonoBehaviour
         livesText.text = m_Lives.ToString() + "/3";
     }
 
-    public void IncreaseScore()
+    public void IncreaseScore(int Score)
     {
-        m_Score += 1;
+        m_Score += Score;
         scoreText.text = m_Score.ToString();
     }
     public void DecreaseLive()

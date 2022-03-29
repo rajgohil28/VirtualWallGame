@@ -66,7 +66,8 @@ public class BallSinglePlayer : MonoBehaviour
         {
             if (hit.transform.tag == "Colliders2")
             {
-                Vector3 forceVect = Vector3.Normalize(new Vector3(-transform.position.x, -transform.position.y, 0));
+                //Vector3 forceVect = Vector3.Normalize(new Vector3(-transform.position.x, -transform.position.y, 0));
+                Vector3 forceVect = new Vector3(-transform.position.x, -transform.position.y, 0);
                 rb.AddForce(forceVect * force);
             }
         }
@@ -103,7 +104,8 @@ public class BallSinglePlayer : MonoBehaviour
                 Random.Range(-randomDirectionMultiplier, randomDirectionMultiplier) + rb.velocity.y,
                 velocityMultiplier * rb.velocity.z);
             FindObjectOfType<AudioManager>().Play("Bounce");
-
+            gm.ScoreManager.IncreaseScore(collision.transform.gameObject.GetComponent<ChangeColorOnStrike>().TileScore);
+            collision.transform.gameObject.GetComponent<ChangeColorOnStrike>().ChangeColorOnHit();
         }
 
         if (collision.transform.tag == "Player")
@@ -111,7 +113,7 @@ public class BallSinglePlayer : MonoBehaviour
             Vector3 velocity = rb.velocity;
             Vector3 reflectVelocity = Vector3.Reflect(velocity, Vector3.back);
             rb.velocity = -reflectVelocity;
-            gm.ScoreManager.IncreaseScore();
+            
             FindObjectOfType<AudioManager>().Play("PlayerHit");
 
         }
