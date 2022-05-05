@@ -99,10 +99,12 @@ public class BallSinglePlayer : MonoBehaviour
         }
         if (collision.transform.tag == "Colliders")
         {
-            rb.velocity = new Vector3(
+            /*rb.velocity = new Vector3(
                 Random.Range(-randomDirectionMultiplier, randomDirectionMultiplier) + rb.velocity.x,
                 Random.Range(-randomDirectionMultiplier, randomDirectionMultiplier) + rb.velocity.y,
-                velocityMultiplier * rb.velocity.z);
+                velocityMultiplier * rb.velocity.z);*/
+
+            rb.velocity = new Vector3(0, 0, initalVelocity);
             FindObjectOfType<AudioManager>().Play("Bounce");
             gm.ScoreManager.IncreaseScore(collision.transform.gameObject.GetComponent<ChangeColorOnStrike>().TileScore);
             collision.transform.gameObject.GetComponent<ChangeColorOnStrike>().ChangeColorOnHit();

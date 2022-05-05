@@ -5468,6 +5468,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1923953286, guid: 018c72006169ddc43bc1437cff1cea07, type: 3}
+      propertyPath: force
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1923953286, guid: 018c72006169ddc43bc1437cff1cea07, type: 3}
       propertyPath: spinRadius
       value: 0.5
       objectReference: {fileID: 0}
@@ -5483,6 +5487,11 @@ PrefabInstance:
       propertyPath: randomDirectionMultiplier
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5826974320092084973, guid: 018c72006169ddc43bc1437cff1cea07,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa8d616306499f84f97d2b5b055d1296, type: 2}
     - target: {fileID: 5826974320286902481, guid: 018c72006169ddc43bc1437cff1cea07,
         type: 3}
       propertyPath: m_RootOrder
